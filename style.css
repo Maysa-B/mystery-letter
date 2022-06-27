@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    color: darkslategray;
+    background-color: lightcyan;
+}
+
+#numeros {
+    display: inline-flex;
+}
+
+button, input {
+    background-color: darkslategray;
+    color: lightcyan;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+}
+
+.newspaper {
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.magazine1 {
+    background-color: teal;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.magazine2 {
+    background-image: url('images/pink-pattern.png') ;
+    color: fuchsia;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.medium {
+    padding: 8px;
+    font-size: 20px;
+}
+
+.big {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.reallybig {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.rotateleft {
+    transform: rotate(-5deg);
+}
+
+.rotateright {
+    transform: rotate(5deg);
+}
+
+.skewleft {
+    transform: skewX(10deg);
+}
+
+.skewright {
+    transform: skewX(-10deg);
+}
+
+span {
+    margin: 5px;
+}
+
+#carta-gerada {
+    margin: 15px 15%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
